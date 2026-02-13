@@ -9788,7 +9788,7 @@ textarea.form-control {
 
 
 /* card treatment */ 
- @media (max-width: 767px) {
+@media (max-width: 767px) {
 
     #treatments .carousel-item .col-md-4 {
       flex: 0 0 100%;
