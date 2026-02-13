@@ -9724,7 +9724,6 @@ textarea.form-control {
 }
 
 
-
 /* tombol pl */
 .offer-deal {
   display: flex;
@@ -9743,7 +9742,6 @@ textarea.form-control {
   align-self: center;
 }
 
-
 .offer-deal .text a {
   display: inline-block;
   padding: 10px 20px;
@@ -9757,6 +9755,7 @@ textarea.form-control {
   background: #000;
   color: #fff;
 }
+
 /* tombol prev next */
 .active-temp {
   display: block;
@@ -9765,13 +9764,13 @@ textarea.form-control {
 }
 
 /* card testimoni */
-.carousel-testimony .item img {
+.gallery, .carousel-testimony .item img {
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
   transition: 0.3s ease;
 }
 
-.carousel-testimony .item img:hover {
+.gallery:hover, .carousel-testimony .item img:hover {
   transform: scale(1.03);
 }
 
@@ -9796,13 +9795,22 @@ textarea.form-control {
       max-width: 100%;
     }
 
-    #treatments .carousel-item .row {
-      flex-wrap: nowrap;
-    }
-
     #treatments .carousel-nav-fixed {
       display: none !important;
     }
 
   }
 
+/* gallery instagram */
+.mfp-img {
+  width: 600px !important;
+  height: 600px !important;
+  object-fit: cover !important;
+}
+
+.mfp-content .btn {
+  background: #E1306C;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
